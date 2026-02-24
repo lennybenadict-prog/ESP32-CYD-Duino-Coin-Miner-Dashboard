@@ -1,4 +1,5 @@
 # ⛏️ ESP32 CYD Duino-Coin Miner & Dashboard
+![IMG_20260224_092323](https://github.com/user-attachments/assets/5cf61f58-acb7-42d4-b042-07ff172417c9)
 
 
 
@@ -44,4 +45,6 @@ Before compiling, you **MUST** configure the `TFT_eSPI` library to work with the
 #define LOAD_FONT4
 #define SPI_FREQUENCY  55000000
 #define SPI_TOUCH_FREQUENCY  2500000
+
+
 
