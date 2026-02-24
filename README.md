@@ -45,32 +45,3 @@ Before compiling, you **MUST** configure the `TFT_eSPI` library to work with the
 #define SPI_FREQUENCY  55000000
 #define SPI_TOUCH_FREQUENCY  2500000
 
-
-🚀 Installation & Configuration
-1. Clone this repository and open the .ino file in the Arduino IDE.
-2. At the top of the code, update your user credentials:
-
-const char* ssid = "YOUR_WIFI_SSID";
-const char* password = "YOUR_WIFI_PASSWORD";
-String ducoUsername = "YOUR_DUCO_USERNAME"; // Crucial: Put your actual wallet name here!
-
-1. Connect your CYD to your PC via USB and hit Upload.
-2. Once it boots, it will connect to Wi-Fi and automatically begin mining on Core 0!
-
-
-📲 OTA Wireless Updates
-Because this code includes a Web Server, you never need to plug it into your computer again!
-1. Export your compiled .bin file from the Arduino IDE (or Arduino Cloud).
-2. Find your ESP32's IP address on your network.
-3. Open a web browser and go to http://[YOUR_ESP32_IP]/update.
-4. Log in (Default Username: admin, Password: admin).
-5. Upload the .bin file. The board will automatically flash and reboot!
-
-
-🙏 Credits
-• Thanks to the Duino-Coin Team for creating a network specifically for microcontrollers.
-• Built using mbedtls hardware acceleration for the ESP32.
-
-
-
-
