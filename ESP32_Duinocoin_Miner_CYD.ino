@@ -14,12 +14,12 @@ using namespace fs;
 // ==========================================
 // 1. YOUR SETTINGS (UPDATE THESE!)
 // ==========================================
-const char* ssid = "SLT-Fiber-plus";
-const char* password = "a5e96607b";
+const char* ssid = "YOUR SSID";
+const char* password = "YOUR PASSWORD";
 
 // Your Official Duino-Coin Credentials
-String ducoUsername = "lennyben86";
-String minerKey = "ella25022021";
+String ducoUsername = "YOUR DUINO COIN USERNAME";
+String minerKey = "YOUR MINER KEY";
 
 // OTA Login Credentials
 const char* otaUser = "admin";
