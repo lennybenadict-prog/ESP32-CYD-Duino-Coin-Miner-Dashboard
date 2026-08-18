@@ -314,6 +314,8 @@ void setup() {
 
   tft.init(); tft.setRotation(1); tft.fillScreen(TFT_BLACK);
   uint16_t calData[5] = { 275, 3620, 264, 3532, 1 }; tft.setTouch(calData);
+                                                     hhInitTheme();
+                                                     hhSetMode(HH_DASH);
 
   tft.setTextColor(TFT_YELLOW, TFT_BLACK); tft.drawCentreString("DUINO-COIN MINER", 160, 100, 4);
   tft.setTextColor(TFT_WHITE, TFT_BLACK); tft.drawCentreString("Connecting to WiFi...", 160, 140, 2);
